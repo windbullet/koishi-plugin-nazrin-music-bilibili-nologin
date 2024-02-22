@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-nazrin-video-bilibili-nologin",
+  "description": "nazrin聚合搜索-bilibili支持（无需登录）",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "4.17.0-beta.4"
+  }
+}
