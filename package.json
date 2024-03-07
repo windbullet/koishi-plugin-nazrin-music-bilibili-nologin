@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-nazrin-video-bilibili-nologin",
-  "description": "nazrin聚合搜索-bilibili支持（无需登录）",
-  "version": "0.0.1",
+  "description": "nazrin聚合搜索-bilibili支持（无需登录，但画质较差）",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,17 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/windbullet/koishi-plugin-nazrin-video-bilibili-nologin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-nazrin-video-bilibili-nologin.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "4.17.0-beta.4"
+    "koishi": "^4.17.1"
   }
 }
